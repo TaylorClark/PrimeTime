@@ -1,0 +1,35 @@
+// Types allowed are:
+// uint8, int8
+// uint16, int16
+// uint32, int32
+// std::wstring
+// FORMAT: type, num bytes, name[, comment ]
+
+GameRunning,The message to alert clients that a game is running
+uint16,16,ServerListenPort,The port to connect to the server to in order to join the game
+GameDefines::EGameType,8,GameType
+GameDefines::EGameplayDiffLevel,8,HostDiff
+std::wstring,0,sHostName
+
+GameClosed,The message to alert clients that a game can no longer be joined
+uint16,16,ServerListenPort,The port the server was listening on before closing
+
+SendMeYourInfo,The message for a player to send to another player to get their information
+
+PlayerInfo,A message containing a player's data
+std::wstring,0,sPlayerName,The player's name
+GameDefines::EGameplayDiffLevel,8,CurDiff
+bool,8,IsReady
+
+GameInfo,The pre-net-game message storing the settings
+GameDefines::EGameType,8,GameType,The type of game to play
+uint16,16,TimeLimit,The time limit for the game
+
+StartGameQuery,The message sent by the server telling the client that a game is to be started
+
+StartGameResponse,The message sent by the client in response to the server's StartGameQuery message
+bool,8,AllowStart,If the client is allowing the start
+
+ServerReady
+
+ClientReady

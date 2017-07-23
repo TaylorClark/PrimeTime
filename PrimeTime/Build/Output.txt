@@ -1,0 +1,29 @@
+Log started at 08/16/06 11:47:04
+Initializing the resource manager
+The file "c:\Taylor\Programming Projects\prime time\gui.rdb" does not contain the resource data FourCC indentifier.
+The file "c:\Taylor\Programming Projects\prime time\numbers.rdb" does not contain the resource data FourCC indentifier.
+Preparing graphics
+Invalid resource ID: 0 (It is out of the valid range).
+Title Screen expeccts the following controls:
+A List named main_list
+A Label named logged_in_label
+Mode Select expeccts the following controls:
+A List named mode_list
+A Button named back_button
+In Game expeccts the following controls:
+A Button named menu_button
+Title Screen expeccts the following controls:
+A List named main_list
+A Label named logged_in_label
+Mode Select expeccts the following controls:
+A List named mode_list
+A Button named back_button
+In Game expeccts the following controls:
+A Button named menu_button
+Time spent updating : 1.790890 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 408)
+Time spent drawing : 10.000409 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 409)
+Average update time (3105 frames): 0.000577 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 410)
+Average draw time : 0.003221 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 411)
+Total loop time : 45.817355 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 414)
+Unaccounted for time (LoopTime - (update + draw)) : 34.026056 (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 416)
+Percent update of total time: 15.188235% (Note: c:\taylor\programming projects\primetimecode\source\primetime\source\main.cpp on line 419)

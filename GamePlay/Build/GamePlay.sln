@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GamePlay", "GamePlay.vcproj", "{4EEB2EDD-6E93-4997-898D-3189EC5357D4}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = GamePlay.vcproj
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		SccProjectFilePathRelativizedFromConnection0 = GamePlay\\Build\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug SFML|Win32 = Debug SFML|Win32
+		Debug SFML|x64 = Debug SFML|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release Demo|Win32 = Release Demo|Win32
+		Release Demo|x64 = Release Demo|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug SFML|Win32.ActiveCfg = Debug SFML|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug SFML|Win32.Build.0 = Debug SFML|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug SFML|x64.ActiveCfg = Debug SFML|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug SFML|x64.Build.0 = Debug SFML|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|Win32.Build.0 = Debug|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|x64.ActiveCfg = Debug|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|x64.Build.0 = Debug|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|Win32.ActiveCfg = Release Demo|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|Win32.Build.0 = Release Demo|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|x64.ActiveCfg = Release Demo|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|x64.Build.0 = Release Demo|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|Win32.ActiveCfg = Release|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|Win32.Build.0 = Release|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|x64.ActiveCfg = Release|x64
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

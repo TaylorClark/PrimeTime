@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontEditor", "FontEditor.csproj", "{51920606-80F3-4810-85F7-A1522DADCF18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10C4C437-24BD-44FC-8E88-87EC423D5D53} = {10C4C437-24BD-44FC-8E88-87EC423D5D53}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceCS", "..\ResourceCS\ResourceCS.csproj", "{10C4C437-24BD-44FC-8E88-87EC423D5D53}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FontEditor.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51920606-80F3-4810-85F7-A1522DADCF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51920606-80F3-4810-85F7-A1522DADCF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51920606-80F3-4810-85F7-A1522DADCF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51920606-80F3-4810-85F7-A1522DADCF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C4C437-24BD-44FC-8E88-87EC423D5D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C4C437-24BD-44FC-8E88-87EC423D5D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C4C437-24BD-44FC-8E88-87EC423D5D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C4C437-24BD-44FC-8E88-87EC423D5D53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

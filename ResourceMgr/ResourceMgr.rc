@@ -1,0 +1,294 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ResourceMgr.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ResourceMgr.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Resource Manager"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Resource Manager Tool",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006 Taylor Clark Software",IDC_STATIC,40,25,143,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_RESOURCEMGR_DIALOG DIALOGEX 0, 0, 394, 276
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Prime Time Resource Manager"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Add Resource...",IDADDREZ,296,89,91,16
+    PUSHBUTTON      "Open Resource Index",IDC_OPENINDEX,296,14,91,16
+    CONTROL         "",IDC_REZTREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,15,18,195,209
+    GROUPBOX        "Resources",IDC_RESGROUP,7,7,211,228
+    PUSHBUTTON      "Export Resource DB...",IDEXPORTDB,296,142,91,28,0,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "Remove Resource...",IDREMOVEREZ,296,109,91,16
+    PUSHBUTTON      "Save Resource Index",IDC_SAVEINDEX2,296,34,91,16
+    PUSHBUTTON      "Paths",IDC_BUTTON_PATHSOPTIONS,296,230,91,17
+    PUSHBUTTON      "Reset",IDC_RESET_BUTTON,296,54,91,16
+    LTEXT           "Next Res ID:",IDC_NEXTRESID_LABEL,226,185,41,8
+    EDITTEXT        IDC_NEXTRESID_EDIT,273,184,36,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROOTRESPATH_EDIT,77,257,273,12,ES_AUTOHSCROLL
+    LTEXT           "Root Resource Path:",IDC_ROOTRESPATH_LABEL,7,259,69,8
+    PUSHBUTTON      "...",IDC_SELECTROOTRESPATH_BUTTON,354,257,19,12
+END
+
+IDD_RESPROP_DIALOG DIALOGEX 0, 0, 450, 99
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resource Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,296,78,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,359,78,50,14
+    EDITTEXT        IDC_RESPATH_EDIT,49,27,394,12,ES_AUTOHSCROLL
+    RTEXT           "Full Path :",IDC_STATIC,10,27,32,8
+    EDITTEXT        IDC_NAME_EDIT,49,7,394,12,ES_AUTOHSCROLL
+    RTEXT           "Name :",IDC_STATIC,10,8,32,8
+    LTEXT           "Resource ID (This should never need to be modified) :",IDC_STATIC,7,66,173,8
+    EDITTEXT        IDC_RESID_EDIT,181,64,72,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IDDEF_EDIT,49,47,394,12,ES_AUTOHSCROLL
+    RTEXT           "ID Define :",IDC_STATIC,10,48,32,8
+    LTEXT           "The specified path is invalid",IDC_BADPATH_STATIC,27,84,102,8
+    CONTROL         "Pack as RLE bitmap",IDC_RLEBITMAP_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,145,84,88,8
+END
+
+IDD_EXPORTFILES_DIALOG DIALOGEX 0, 0, 555, 335
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Export Destinations"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Export",IDOK,363,307,87,21
+    PUSHBUTTON      "Cancel",IDCANCEL,461,307,87,21
+    RTEXT           "Export Path :",IDC_STATIC,7,8,44,8
+    EDITTEXT        IDC_PATH_EDIT,52,7,362,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_SETPATH_BUTTON,426,7,29,13
+    LTEXT           "Output File :",IDC_STATIC,7,268,42,8
+    COMBOBOX        IDC_DESTFILE_COMBO,50,268,114,58,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_RES_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,24,541,231
+    COMBOBOX        IDC_TEMPLATE_COMBO,65,313,97,61,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Output Template:",IDC_STATIC,7,316,57,12
+    LTEXT           "Clear the value to suppress exporting",IDC_STATIC,170,265,90,16
+    PUSHBUTTON      "Use For All",IDC_SETALL_BUTTON,69,284,60,14
+END
+
+IDD_PROG_DIALOG DIALOGEX 0, 0, 273, 44
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Export Progress"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MAIN_PROGRESS,"msctls_progress32",WS_BORDER,7,7,259,15
+    CTEXT           "Static",IDC_PROG_LABEL,48,28,176,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ResourceMgr.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "ResourceMgr.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_RESOURCEMGR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 387
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+
+    IDD_RESPROP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 443
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_EXPORTFILES_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 548
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+
+    IDD_PROG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 37
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\ResourceMgr.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WARN_BITMAP         BITMAP                  "C:\\Taylor\\Programming Projects\\PrimeTimeCode\\warn_icon.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ResourceMgr..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ResourceMgr.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

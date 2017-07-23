@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkTest", "NetworkTest.vcproj", "{496D0B2C-BA23-4659-8321-3C8AD5A392AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A} = {3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2} = {71DFF1B2-7D39-4A54-B044-61B74ACFABF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\..\Base\Build\Base.vcproj", "{04DB0601-521B-4C9C-8E14-47510CF1DD1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics2D", "..\..\Graphics2D\Build\Graphics2D.vcproj", "{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Network", "..\..\Network\Build\Network.vcproj", "{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496D0B2C-BA23-4659-8321-3C8AD5A392AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{496D0B2C-BA23-4659-8321-3C8AD5A392AC}.Debug|Win32.Build.0 = Debug|Win32
+		{496D0B2C-BA23-4659-8321-3C8AD5A392AC}.Release|Win32.ActiveCfg = Release|Win32
+		{496D0B2C-BA23-4659-8321-3C8AD5A392AC}.Release|Win32.Build.0 = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.Build.0 = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.ActiveCfg = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.Build.0 = Release|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Debug|Win32.Build.0 = Debug|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release|Win32.ActiveCfg = Release|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release|Win32.Build.0 = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug|Win32.Build.0 = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release|Win32.ActiveCfg = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

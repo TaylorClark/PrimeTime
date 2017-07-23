@@ -1,0 +1,6 @@
+.LOG
+
+9:31 PM 4/8/2006
+- Worked on loading of resource data files
+8:58 AM 4/9/2006
+- Worked on resource data file loading

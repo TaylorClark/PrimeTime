@@ -1,0 +1,99 @@
+using System.IO;
+
+namespace TCUtil
+{
+	//-------------------------------------------------------------------------
+	/// <summary>
+	/// A class to abstract the specifics of reading and writing binary data
+	/// to/from a stream
+	/// </summary>
+	//-------------------------------------------------------------------------
+	interface ISimpleSerializer
+	{
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a 32-bit integer for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The integer to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref int val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a 32-bit unsigned integer for reading from or writing to the
+		/// stream
+		/// </summary>
+		/// <param name="val"> The unsigned integer to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref uint val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a floating point for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The float to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref float val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a boolean for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The boolean to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref bool val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a string for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The string to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref string val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add a character for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The character to use </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref char val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Add characters for reading from or writing to the stream
+		/// </summary>
+		/// <param name="val"> The character to use </param>
+		/// <param name="len"> The number of characters to write </param>
+		///////////////////////////////////////////////////////////////////////
+		void AddData(ref char[] val);
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Get if the serializer is being used for writing data out
+		/// </summary>
+		///////////////////////////////////////////////////////////////////////
+		bool InWriteMode
+		{
+			get;
+		}
+
+
+		///////////////////////////////////////////////////////////////////////
+		/// <summary>
+		/// Get if the serializer is being used for reading data in
+		/// </summary>
+		///////////////////////////////////////////////////////////////////////
+		bool InReadMode
+		{
+			get;
+		}
+	}
+}

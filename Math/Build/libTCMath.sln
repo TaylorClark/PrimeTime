@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCMath2", "libTCMath2.vcproj", "{7A1A27E4-078C-42AB-A771-304A671A3FCE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Multithread Debug = Multithread Debug
+		Multithread Release = Multithread Release
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Debug.ActiveCfg = Debug|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Debug.Build.0 = Debug|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Multithread Debug.ActiveCfg = Multithread Debug|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Multithread Debug.Build.0 = Multithread Debug|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Multithread Release.ActiveCfg = Multithread Release|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Multithread Release.Build.0 = Multithread Release|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Release.ActiveCfg = Release|Win32
+		{7A1A27E4-078C-42AB-A771-304A671A3FCE}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

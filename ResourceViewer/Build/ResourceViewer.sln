@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResourceViewer", "ResourceViewer.vcproj", "{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4} = {4EEB2EDD-6E93-4997-898D-3189EC5357D4}
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2} = {71DFF1B2-7D39-4A54-B044-61B74ACFABF2}
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF} = {11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6} = {1E768CF5-65BF-475A-AD8C-B8B39358FBC6}
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E} = {20977D23-8499-4CCD-8C36-9D09AA278B3E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Audio", "..\..\Audio\Build\Audio.vcproj", "{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics2D", "..\..\Graphics2D\Build\Graphics2D.vcproj", "{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\..\Base\Build\Base.vcproj", "{04DB0601-521B-4C9C-8E14-47510CF1DD1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resource", "..\..\Resource\Build\Resource.vcproj", "{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E} = {04DB0601-521B-4C9C-8E14-47510CF1DD1E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jpeg", "..\..\Jpeg\Build\Jpeg.vcproj", "{20977D23-8499-4CCD-8C36-9D09AA278B3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GamePlay", "..\..\GamePlay\Build\GamePlay.vcproj", "{4EEB2EDD-6E93-4997-898D-3189EC5357D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release Demo|Win32 = Release Demo|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Debug|Win32.Build.0 = Debug|Win32
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Release Demo|Win32.ActiveCfg = Release|Win32
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Release Demo|Win32.Build.0 = Release|Win32
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Release|Win32.ActiveCfg = Release|Win32
+		{27AF5E79-11C2-4F90-80E3-CA91A7BBE72A}.Release|Win32.Build.0 = Release|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Debug|Win32.Build.0 = Debug|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Release Demo|Win32.ActiveCfg = Release with DInfo|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Release Demo|Win32.Build.0 = Release with DInfo|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Release|Win32.ActiveCfg = Release|Win32
+		{11FF55C7-9FA0-4B87-A9A3-B6E22B96CDFF}.Release|Win32.Build.0 = Release|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Debug|Win32.Build.0 = Debug|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release Demo|Win32.ActiveCfg = Release with DInfo|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release Demo|Win32.Build.0 = Release with DInfo|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release|Win32.ActiveCfg = Release|Win32
+		{71DFF1B2-7D39-4A54-B044-61B74ACFABF2}.Release|Win32.Build.0 = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.Build.0 = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release Demo|Win32.ActiveCfg = Release DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release Demo|Win32.Build.0 = Release DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.ActiveCfg = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.Build.0 = Release|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Debug|Win32.Build.0 = Debug|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release Demo|Win32.ActiveCfg = Release with DInfo|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release Demo|Win32.Build.0 = Release with DInfo|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release|Win32.ActiveCfg = Release|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release|Win32.Build.0 = Release|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Debug|Win32.Build.0 = Debug|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Release Demo|Win32.ActiveCfg = Release|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Release Demo|Win32.Build.0 = Release|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Release|Win32.ActiveCfg = Release|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Release|Win32.Build.0 = Release|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Debug|Win32.Build.0 = Debug|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|Win32.ActiveCfg = Release Demo|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release Demo|Win32.Build.0 = Release Demo|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|Win32.ActiveCfg = Release|Win32
+		{4EEB2EDD-6E93-4997-898D-3189EC5357D4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

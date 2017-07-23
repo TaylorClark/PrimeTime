@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestNetwork", "TestNetwork\TestNetwork.vcproj", "{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A} = {3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Network", "..\Network\Build\Network.vcproj", "{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\Base\Build\Base.vcproj", "{04DB0601-521B-4C9C-8E14-47510CF1DD1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug|Win32 = Debug|Win32
+		Release DLL|Win32 = Release DLL|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Debug|Win32.Build.0 = Debug|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Release DLL|Win32.Build.0 = Release|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Release|Win32.ActiveCfg = Release|Win32
+		{556C9E49-4B4D-45E4-AE3A-1A1E584CD5BC}.Release|Win32.Build.0 = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Debug|Win32.Build.0 = Debug|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release DLL|Win32.Build.0 = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release|Win32.ActiveCfg = Release|Win32
+		{3B940B3A-F29C-48F5-AC9C-1A9EC3AD7F7A}.Release|Win32.Build.0 = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug DLL|Win32.ActiveCfg = Debug DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug DLL|Win32.Build.0 = Debug DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.Build.0 = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release DLL|Win32.ActiveCfg = Release DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release DLL|Win32.Build.0 = Release DLL|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.ActiveCfg = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

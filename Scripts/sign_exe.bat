@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft Visual Studio 8\Common7\Tools\Bin\signtool.exe" sign /f "c:\taylor\fullcert.pfx" /p pr1m3tym /d "An educational math game that is actually fun!" /du "http://www.PrimeTimeMath.net" /t "http://timestamp.comodoca.com/authenticode" /v %1

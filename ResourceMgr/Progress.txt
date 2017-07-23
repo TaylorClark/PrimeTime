@@ -1,0 +1,8 @@
+.LOG
+
+9:35 PM 3/30/2006
+- Image packing done
+12:19 AM 4/1/2006
+- Game resource (sprite, font) packing done
+12:50 AM 4/30/2006
+- Fixed if statement where it would display an error if a registry value was successfully stored

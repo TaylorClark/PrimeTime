@@ -1,0 +1,5 @@
+LIBRARY
+EXPORTS
+   RunGame   @1
+   AAAAAaaaaa	@2
+   GetVersion	@3

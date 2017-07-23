@@ -1,0 +1,7 @@
+.LOG
+
+12:02 AM 4/18/2006
+- Add resource chooser
+
+12:39 AM 4/19/2006
+- Added game path to paths options

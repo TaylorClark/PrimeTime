@@ -1,0 +1,5 @@
+LIBRARY	"ResPathDlg_dbg"
+EXPORTS
+	RunResChooserDlg_Filter
+	RunResChooserDlgList
+	RunResChooserDlgList_Filter

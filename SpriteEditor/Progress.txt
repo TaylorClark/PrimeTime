@@ -1,0 +1,10 @@
+.LOG
+
+6:25 PM 4/29/2006
+- Added frames are now selected after being added.
+- New clears all data
+
+2:05 PM 5/24/2006
+- Updated to use new ResChooser dialog
+- Changed name to Sprite Editor
+- Added version to sprite file

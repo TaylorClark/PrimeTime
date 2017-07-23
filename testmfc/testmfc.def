@@ -1,0 +1,7 @@
+; testmfc.def : Declares the module parameters for the DLL.
+
+LIBRARY      "testmfc"
+
+EXPORTS
+    ; Explicit exports can go here
+	RunResChooserDlg_Filter

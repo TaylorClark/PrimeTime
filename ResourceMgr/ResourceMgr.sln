@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResourceMgr", "ResourceMgr.vcxproj", "{172DC635-C630-4CB1-841F-7C70053E90DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\Base\Build\Base.vcxproj", "{04DB0601-521B-4C9C-8E14-47510CF1DD1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resource", "..\Resource\Build\Resource.vcxproj", "{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResourceTools", "..\ResourceTools\Build\ResourceTools.vcxproj", "{11858DD9-3390-43A3-8BF2-C4CA9F9EBAFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jpeg", "..\Jpeg\Build\Jpeg.vcxproj", "{20977D23-8499-4CCD-8C36-9D09AA278B3E}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		SccProjectFilePathRelativizedFromConnection0 = ResourceMgr\\
+		SccProjectUniqueName1 = ..\\Base\\Build\\Base.vcxproj
+		SccLocalPath1 = ..
+		SccProjectFilePathRelativizedFromConnection1 = Base\\Build\\
+		SccProjectUniqueName2 = ..\\Resource\\Build\\Resource.vcxproj
+		SccLocalPath2 = ..
+		SccProjectFilePathRelativizedFromConnection2 = Resource\\Build\\
+		SccProjectUniqueName3 = ..\\ResourceTools\\Build\\ResourceTools.vcxproj
+		SccLocalPath3 = ..\\ResourceTools
+		SccProjectFilePathRelativizedFromConnection3 = Build\\
+		SccProjectUniqueName4 = ..\\Jpeg\\Build\\Jpeg.vcxproj
+		SccLocalPath4 = ..
+		SccProjectFilePathRelativizedFromConnection4 = Jpeg\\Build\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172DC635-C630-4CB1-841F-7C70053E90DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{172DC635-C630-4CB1-841F-7C70053E90DE}.Debug|Win32.Build.0 = Debug|Win32
+		{172DC635-C630-4CB1-841F-7C70053E90DE}.Release|Win32.ActiveCfg = Release|Win32
+		{172DC635-C630-4CB1-841F-7C70053E90DE}.Release|Win32.Build.0 = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Debug|Win32.Build.0 = Debug|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.ActiveCfg = Release|Win32
+		{04DB0601-521B-4C9C-8E14-47510CF1DD1E}.Release|Win32.Build.0 = Release|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Debug|Win32.ActiveCfg = Debug Tools|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Debug|Win32.Build.0 = Debug Tools|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release|Win32.ActiveCfg = Release|Win32
+		{1E768CF5-65BF-475A-AD8C-B8B39358FBC6}.Release|Win32.Build.0 = Release|Win32
+		{11858DD9-3390-43A3-8BF2-C4CA9F9EBAFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11858DD9-3390-43A3-8BF2-C4CA9F9EBAFF}.Debug|Win32.Build.0 = Debug|Win32
+		{11858DD9-3390-43A3-8BF2-C4CA9F9EBAFF}.Release|Win32.ActiveCfg = Release|Win32
+		{11858DD9-3390-43A3-8BF2-C4CA9F9EBAFF}.Release|Win32.Build.0 = Release|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20977D23-8499-4CCD-8C36-9D09AA278B3E}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

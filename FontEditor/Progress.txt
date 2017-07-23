@@ -1,0 +1,9 @@
+.LOG
+
+12:01 AM 4/18/2006
+- Added ResChooser dialog, but still need resDB support
+
+12:40 AM 4/19/2006
+- Uses resource chooser now, but still needs files to store ID instead of image file
+12:50 AM 4/30/2006
+- Added name field
