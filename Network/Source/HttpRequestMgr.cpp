@@ -6,7 +6,7 @@
 #endif
 
 #define CURL_STATICLIB
-#include <curl/curl.h>
+//#include <curl/curl.h>
 
 bool HttpRequestMgr::s_CurlHasBeenInitialized = false;
 
@@ -18,7 +18,7 @@ bool HttpRequestMgr::s_CurlHasBeenInitialized = false;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void HttpRequestMgr::Init()
 {
-	curl_global_init( CURL_GLOBAL_WIN32 );
+	//curl_global_init( CURL_GLOBAL_WIN32 );
 
 	HttpRequestMgr::s_CurlHasBeenInitialized = true;
 }
@@ -31,7 +31,7 @@ void HttpRequestMgr::Init()
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void HttpRequestMgr::Term()
 {
-	curl_global_cleanup();
+	//curl_global_cleanup();
 }
 
 
@@ -161,6 +161,12 @@ HttpRequestInfo HttpRequestMgr::Get( const wchar_t* szUri )
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 HttpRequestInfo HttpRequestMgr::Get( const char* szUri )
 {
+	// 2023/07/28 - Simply disable network requests for now
+	szUri;
+
+	HttpRequestInfo requestInfo;
+	return requestInfo;
+	/*
 	CURL* pEasyCurl = curl_easy_init();
 
 	curl_easy_setopt(pEasyCurl, CURLOPT_URL, szUri);
@@ -193,4 +199,5 @@ HttpRequestInfo HttpRequestMgr::Get( const char* szUri )
 		requestInfo.StatusCode = 200;
 
 	return requestInfo;
+	*/
 }
