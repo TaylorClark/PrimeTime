@@ -292,4 +292,22 @@ __pycache__/
 *.unsuccessfulbuild
 *.idb
 
-PrimeTimeOutput
+*.vcxproj.FileListAbsolute.txt
+*.lib.recipe
+*.exe.recipe
+/lib/Audio_dbg.lib
+/lib/Base_dbg.lib
+/lib/Base.lib
+/lib/GamePlay.lib
+/lib/Graphics2D.lib
+/lib/GUI.lib
+/lib/Network_dbg.lib
+/lib/Resource.lib
+/lib/TCMath_dbg.lib
+/lib/TCMath.lib
+*.dll.recipe
+*PrimeTime.iobj
+/PrimeTimeOutput/PrimeTime_dbg.dll
+/PrimeTimeOutput/PrimeTime_dbg.exe
+/PrimeTimeOutput/PrimeTime_dbg.exp
+/PrimeTimeOutput/PrimeTime_dbg.lib

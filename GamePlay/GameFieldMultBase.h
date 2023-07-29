@@ -109,9 +109,6 @@ public:
 		return GameField::Init();
 	}
 
-	/// Set the rate at which blocks push up in pixels per second
-	float32 GetBlockPushUpSpeed() const { return m_PushUpSpeed; }
-
 	/// Drop a new block on the field
 	void DropNewBlock( GameFieldBlockMultBase* pNewBlock );
 
