@@ -104,9 +104,9 @@ void GameLogic::Update( float32 frameTime )
 		if( elapsedTime >= m_TimeLimit )
 			pGameOverMsgBox = MsgBox::CreateMsgBoxCustom( L"Time's up! Evaluation mode games are limited to 3 minutes. Don't worry, the full version has no time limit!", L"Retry", L"Quit" );
 		else
-			pGameOverMsgBox = MsgBox::CreateMsgBoxCustom( L"Game Over", L"Retry", L"Quit" );
+			pGameOverMsgBox = MsgBox::CreateMsgBoxCustom( L"Great Job!", L"Retry", L"Quit" );
 #else
-		pGameOverMsgBox = MsgBox::CreateMsgBoxCustom( L"Game Over", L"Retry", L"Quit" );
+		pGameOverMsgBox = MsgBox::CreateMsgBoxCustom( L"Great Job!", L"Retry", L"Quit" );
 #endif
 		
 		GameMgr::Get().PopupMsgBox( pGameOverMsgBox, OnGameOverMBClose, NULL );
