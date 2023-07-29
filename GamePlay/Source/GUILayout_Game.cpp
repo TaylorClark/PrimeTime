@@ -1460,18 +1460,18 @@ Point2i GUILayoutInGame::GetSumBottomLeftPos() const
 }
 
 
-static uint32 ModPixelCB( uint32 inColor )
-{
-	uint32 r = inColor & 0xFF;
-	uint32 g = (inColor >> 8) & 0xFF;
-	uint32 b = (inColor >> 16) & 0xFF;
-
-	r /= 2;
-	g /= 2;
-	b /= 2;
-
-	return (b << 16) | (g << 8) | r;
-}
+//static uint32 ModPixelCB( uint32 inColor )
+//{
+//	uint32 r = inColor & 0xFF;
+//	uint32 g = (inColor >> 8) & 0xFF;
+//	uint32 b = (inColor >> 16) & 0xFF;
+//
+//	r /= 2;
+//	g /= 2;
+//	b /= 2;
+//
+//	return (b << 16) | (g << 8) | r;
+//}
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1561,8 +1561,6 @@ void GUILayoutInGame::UpdateFlashing( float32 frameTime )
 		ResourceID noteFontResID = RESID_FONT_LETTEROMATIC;
 		if(m_pLabels[L_TutorialNote] && m_pLabels[L_TutorialNote]->GetFont())
 		{
-			const float32 FLASH_SPEED = 0.125f;
-
 			// If the note should toggle fonts
 			noteFontResID = m_pLabels[L_TutorialNote]->GetFont()->GetResID();
 			if( (int32)(m_TutorialNoteFlashTime / FLASH_SPEED) != (int32)((m_TutorialNoteFlashTime + frameTime) / FLASH_SPEED) )
