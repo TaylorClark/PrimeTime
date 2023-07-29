@@ -157,7 +157,7 @@ namespace GameDefines
 	static const int32 NUM_CLEAR_PER_LEVEL = 10;
 
 	/// The key code for the key that will speed up the block production (VK_CONTROL = 17)
-	static const int32 KEY_CODE_FASTPUSH = 17;
+	static const int32 KEY_CODE_FASTPUSH = 37;// 37=sf::Keyboard::LControl;// 17;
 
 	/// The size of a block in pixels
 	static const int32 BLOCK_WIDTH = 55;

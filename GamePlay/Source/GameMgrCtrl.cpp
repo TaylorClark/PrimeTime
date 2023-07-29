@@ -18,10 +18,12 @@
 #include "GUI/GUIMessages.h"
 #include "Graphics2D/GraphicsMgr.h"
 #include "GUI/MsgBox.h"
+#include <winuser.rh>
+#include <SFML/Window/Keyboard.hpp>
 
 const wchar_t* GameMgrCtrl::CTRL_NAME = L"gamefield_ctrl";
 // VK_ESCAPE = 0x1B = 27
-const uint32 KEYCODE_ESCAPE = 27;
+const uint32 KEYCODE_ESCAPE = sf::Keyboard::Escape;// 27;
 
 /// Get the bounding box for this control
 Box2i GameMgrCtrl::InternalGetBoundBox() const
